@@ -214,3 +214,5 @@ ___
 ```
 ___
 
+OBS: Para rodarmos a aplicação: basta fazer o dowload do código desse repositório e importa-lo, em uma IDE, como maven project.
+
