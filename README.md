@@ -30,3 +30,39 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 
 ```
 ___
+
+## POST
+`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+
+**Resposta**
+
+```
+//Serão listados todas as tarefas criadas
+
+
+```
+___
+
+## PUT
+`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+
+**Resposta**
+
+```
+//Serão listados todas as tarefas criadas
+
+
+```
+___
+
+## DELETE
+`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+
+**Resposta**
+
+```
+//Serão listados todas as tarefas criadas
+
+
+```
+___
