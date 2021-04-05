@@ -53,7 +53,7 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 ___
 
 ## POST
-`Criar uma nova tarefa` [curl -X POST -H 'Content-Type: application/json' -d '{"titulo":"Organizar Material de estudo","mensagem":"Definir o que será estudado e revisado"}' http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Criar uma nova tarefa` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
 **Corpo**
 
@@ -85,17 +85,17 @@ ___
 
 
 ## PUT
-`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Alterar uma tarefa já criada` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
 **Resposta**
 
 ```
-//Alterando uma tarefa já cadastrada
+//Além dos atributos podemos mudar o status da tarefa 
 
   {
-    "id": 3,
-    "titulo": "Pagar Boletos",
-    "mensagem": "Não esquecer de pagar as contas de ontem",
+    "id": 1,
+    "titulo": "Organizar Material de estudo para sábado",
+    "mensagem": "Definir o que será estudado e revisado",
     "status": "COMPLETED"
   }
 
@@ -103,12 +103,11 @@ ___
 ___
 
 ## DELETE
-`Listar todos as tarefas criadas` [http://localhost:8080/todo/1](#get-1billingretrieve-billing-datajson) <br/>
+`Deletar uma tarefa criada` [http://localhost:8080/todo/1](#get-1billingretrieve-billing-datajson) <br/>
 
-**Resposta**
 
 ```
-//Deletamos uma tarefa passando o numero de seu id
+//Para deletamos uma tarefa passando o numero de seu id na url
 
 
 ```
