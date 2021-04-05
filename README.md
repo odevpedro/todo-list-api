@@ -16,6 +16,8 @@ Esse projeto foi criado usando:
 Nota: Quando criamos uma tarefa, naturalmente, ela "nasce" como pendente e depois de resolvermos podemos marca-la como completa.
 Desse modo foi criado um Enum cujo valor inicial é o padrão de todas as tarefas: pending
 
+Não criei uma classe de DTO ou FORM: devido a simplicidade e a pequena quantidade de atributos do projeto.
+
 ## End-Points
 Temos os seguintes end-points, de acordo com as necessidades apresentadas na proposta:
 
