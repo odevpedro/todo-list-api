@@ -13,7 +13,7 @@ Esse projeto foi criado usando:
 * Actuator
 	
 
-Quando criamos uma tarefa, naturalmente, ela "nasce" como pendente e depois de resolvermos podemos marca-la como completa.
+Nota: Quando criamos uma tarefa, naturalmente, ela "nasce" como pendente e depois de resolvermos podemos marca-la como completa.
 Desse modo foi criado um Enum cujo valor inicial é o padrão de todas as tarefas: pending
 
 ## End-Points
