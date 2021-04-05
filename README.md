@@ -53,20 +53,36 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 ___
 
 ## POST
-`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Criar uma nova tarefa` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
 **Corpo**
 
 ```
-//Serão listados todas as tarefas criadas
+//Passamos os parametros que compõem a nossa entidade
 
 {
-	"titulo": "Titulo da tarefa",
-	"mensagem":"Mensagem relacionada à tarefa"
+	"titulo": "Organizar Material de estudo",
+	"mensagem":"Definir o que sera estudado e revisado"
 }
 
 ```
 ___
+
+**Resposta**
+
+```
+
+
+  {
+    "id": 1,
+    "titulo": "Organizar Material de estudo",
+    "mensagem": "Definir o que será estudado e revisado",
+    "status": "PENDING"
+  }
+
+```
+___
+
 
 ## PUT
 `Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
