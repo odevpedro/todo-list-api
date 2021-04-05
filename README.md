@@ -25,7 +25,7 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 **Resposta**
 
 ```
-//Serão listados todas as tarefas criadas
+//Serão listados todas as tarefas que foram previamente criadas
 
 [
   {
@@ -55,11 +55,15 @@ ___
 ## POST
 `Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
-**Resposta**
+**Corpo**
 
 ```
 //Serão listados todas as tarefas criadas
 
+{
+	"titulo": "Titulo da tarefa",
+	"mensagem":"Mensagem relacionada à tarefa"
+}
 
 ```
 ___
@@ -70,19 +74,25 @@ ___
 **Resposta**
 
 ```
-//Serão listados todas as tarefas criadas
+//Alterando uma tarefa já cadastrada
 
+  {
+    "id": 3,
+    "titulo": "Pagar Boletos",
+    "mensagem": "Não esquecer de pagar as contas de ontem",
+    "status": "COMPLETED"
+  }
 
 ```
 ___
 
 ## DELETE
-`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Listar todos as tarefas criadas` [http://localhost:8080/todo/1](#get-1billingretrieve-billing-datajson) <br/>
 
 **Resposta**
 
 ```
-//Serão listados todas as tarefas criadas
+//Deletamos uma tarefa passando o numero de seu id
 
 
 ```
