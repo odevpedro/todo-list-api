@@ -20,7 +20,7 @@ Desse modo foi criado um Enum cujo valor inicial é o padrão de todas as tarefa
 Temos os seguintes end-points, de acordo com as necessidades apresentadas na proposta:
 
 ## GET
-`Listar todos as tarefas criadas` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Listar todos as tarefas criadas` [curl http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
 **Resposta**
 
@@ -53,7 +53,7 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 ___
 
 ## POST
-`Criar uma nova tarefa` [http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
+`Criar uma nova tarefa` [curl -X POST -H 'Content-Type: application/json' -d '{"titulo":"Organizar Material de estudo","mensagem":"Definir o que será estudado e revisado"}' http://localhost:8080/todo](#get-1billingretrieve-billing-datajson) <br/>
 
 **Corpo**
 
