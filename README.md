@@ -27,6 +27,27 @@ Temos os seguintes end-points, de acordo com as necessidades apresentadas na pro
 ```
 //Serão listados todas as tarefas criadas
 
+[
+  {
+    "id": 1,
+    "titulo": "Organizar Material de estudo",
+    "mensagem": "Definir o que será estudado e revisado",
+    "status": "PENDING"
+  },
+  {
+    "id": 2,
+    "titulo": "Lista de compras",
+    "mensagem": "Lembrar de fazer uma lista para o mercado",
+    "status": "PENDING"
+  },
+  {
+    "id": 3,
+    "titulo": "Pagar Boletos",
+    "mensagem": "Não esquecer de pagar as contas",
+    "status": "PENDING"
+  }
+]
+
 
 ```
 ___
